@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <a class="button" onclick="toggleNewsLetter()">Subscribe to our newsletter</a>
+    <div id="newsletter" class="container">
+        <h2>Subscribe to our newsletter</h2>
+        <p>Subscribe to our newsletter to get the latest news</p>
+        <form action="">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <a class="close" onclick="showNewsLetter()">
+     <i class="fa fa-times fa-2x " aria-hidden="true"></i>
+    </a>
     <script src="script.js"></script>
 </body>
 </html>
